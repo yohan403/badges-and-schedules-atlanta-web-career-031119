@@ -23,11 +23,9 @@ def assign_rooms(array)
   return room_array
 end
 
-def printer(array)
-  badge_list = batch_badge_creator(array)
-  room_list = assign_rooms(array)
-  array.size.times do |i|
-    puts badge_list[i]
-    puts assign_rooms[i]
+def printer(array1,array2)
+  array1.size.times do |i|
+    puts array1[i]
+    puts array2[i]
   end
 end
