@@ -31,5 +31,3 @@ def printer(array)
     puts assign_rooms[i]
   end
 end
-
-
